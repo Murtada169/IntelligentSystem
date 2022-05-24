@@ -17,7 +17,7 @@ np.random.seed(seed)
 
 # download dataset
 
-DATASET_PATH = 'data/SpeechDataset'
+DATASET_PATH = 'data/speech_commands'
 data_dir = pathlib.Path(DATASET_PATH)
 
 # print folder names
@@ -188,7 +188,8 @@ history = model.fit(
     epochs=EPOCHS, # number of epochs
     callbacks=tf.keras.callbacks.EarlyStopping(verbose=1, patience=2), # early stopping to prevent long/unnecessary training times
 )
-
+# saving the trained model for further usage 
+model.save('models/rnn')
 # ---Metrics---
 
 metrics = history.history

@@ -68,7 +68,7 @@ class_labels = [
  'wow', 'yes', 'zero'
 ]
 
-DATASET_PATH = 'speech_commands'
+DATASET_PATH = 'Data/speech_commands'
 data_dir = pathlib.Path(DATASET_PATH)
 commands = np.array(tf.io.gfile.listdir(str(data_dir)))
 commands = commands[commands != 'README.md']
@@ -113,11 +113,11 @@ pygame.draw.rect(gameDisplay, color, pygame.Rect(0, 450, 820, 150))
 pygame.display.flip()
 
 
-
+# need to change the path on your PC 
 def close():
     pdf = PDFGenerator()
     pdf.print_chapter(filepath)
-    pdfFilepath = os.path.join(r"C:\Users\murta\OneDrive\Desktop\FrontEnd_IS", 'meeting_minutes.pdf')
+    pdfFilepath = os.path.join(r"C:\xampp\htdocs\IntelligentSystem", 'meeting_minutes.pdf')
     pdf.output(pdfFilepath, 'F')
 
     pygame.quit()
@@ -218,7 +218,7 @@ def preprocess_dataset(files):
 ######################################## START RECORD AUDIO  ###########################################################
 def recordaudio():
     fs = 44100  # Sample rate
-    seconds = 1  # Duration of recording
+    seconds = 2  # Duration of recording
     print ("talk")
     time.sleep(1)
     myrecording = sd.rec(int(seconds * fs), samplerate=fs, channels=1)
