@@ -1,0 +1,41 @@
+#### LIBRARIES TO IMPORT/ ADD TO MACHINE ##########
+
+import os
+import pathlib
+import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns
+import tensorflow as tf
+from tensorflow.keras import layers
+from tensorflow.keras import models
+from IPython import display
+from tkinter import *
+from tkcalendar import *
+import pygame
+import time
+import speech_recognition as sr 
+from datetime import datetime
+from attr import field
+import datetime
+import shutil
+import sounddevice as sd
+from scipy.io.wavfile import write
+import soundfile
+from turtle import st
+import wave
+from fpdf import FPDF
+
+
+##CHANGE DIRECTORY PATHS TO YOUR FOLDER LOCATION ####
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+######################################################
+

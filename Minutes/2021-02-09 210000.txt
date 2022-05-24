@@ -1,0 +1,5 @@
+2021-02-09 21:00:00 Meeting Minutes
+[20:57:32] speak hello
+[20:57:37] again
+[20:57:56] google hello hello
+[20:58:19] hello and welcome to our Channel today we are glad to have you on our Saturday
