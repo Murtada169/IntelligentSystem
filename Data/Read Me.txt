@@ -1,1 +1,1 @@
-Please add all 35 words folder speech_commands folder directory  
+Please add all 35 words folder under the  speech_commands folder directory  

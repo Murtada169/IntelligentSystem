@@ -26,9 +26,5 @@ Due to memory constrains and GitHub memory policies, the dataset failed to get u
 
 - The CNN and RNN python files contain the layers and the training codes. 
 
-- BASELINE MODEL (NEED TO SORT THIS OUT / BASELINE MDOEL ALL DATA / CNN uses mini speech)
-
-- FInalise the commenting as well 
-
 ######################################################
 

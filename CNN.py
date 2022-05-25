@@ -175,7 +175,7 @@ model.compile(
 # saving the model strucutre and weights 
 model.save('models/cnn')
 
-EPOCHS = 20
+EPOCHS = 10
 history = model.fit(
     train_ds, # input data
     validation_data=val_ds, # validation data
