@@ -26,16 +26,10 @@ import wave
 from fpdf import FPDF
 
 
-##CHANGE DIRECTORY PATHS TO YOUR FOLDER LOCATION ####
-
--
--
--
--
--
--
--
--
+##IMPORTANT STEPS  ####
+1) Change the path to the desired location on your PC.
+- pdfFilepath = os.path.join(r"C:\xampp\htdocs\IntelligentSystem", 'meeting_minutes.pdf') --- Options.py line 120  
+2) Downlaod and unzip the speech_Commands, and paste the 35 words folders under the Data/speech_commands folder-
 
 ######################################################
 
